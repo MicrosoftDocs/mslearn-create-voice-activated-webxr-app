@@ -1,0 +1,13 @@
+{
+    "Registrations": [
+        {
+            "Component": {
+                "Type": "other",
+                "Other": {
+                    "FileName": "green-dragon.glb",
+                    "Description": "3D Model of a green dragon under CC Attribution license"
+                }
+            }
+        }
+    ]
+}
