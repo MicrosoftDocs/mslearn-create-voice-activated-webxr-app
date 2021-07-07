@@ -4,7 +4,7 @@ This repository contains the completed code for the Virtual Reality option of th
 ## Assets credits
 The dragon model used in this repository is created by RedCoreTimber and can be found on [Sketchfab](https://sketchfab.com/3d-models/dragon-flying-cycle-ae0831702eac462a9969ff4f8bd57710).
 
-## Running the starter project
+## Running the project
 
 Install packages <br>	
 `npm install`	
