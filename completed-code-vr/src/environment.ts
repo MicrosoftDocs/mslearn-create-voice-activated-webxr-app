@@ -75,12 +75,12 @@ export function createBackground(scene: BABYLON.Scene, meshToRender: BABYLON.Abs
     const skybox = BABYLON.Mesh.CreateBox("BackgroundSkybox", 500, scene, undefined, BABYLON.Mesh.BACKSIDE);
     const skyboxMaterial = new BABYLON.BackgroundMaterial("skyboxMaterial", scene);
     var files = [
-        "assets/skybox/space_left.jpg",
-        "assets/skybox/space_up.jpg",
-        "assets/skybox/space_front.jpg",
-        "assets/skybox/space_right.jpg",
-        "assets/skybox/space_down.jpg",
-        "assets/skybox/space_back.jpg",
+        "assets/space_left.jpg",
+        "assets/space_up.jpg",
+        "assets/space_front.jpg",
+        "assets/space_right.jpg",
+        "assets/space_down.jpg",
+        "assets/space_back.jpg",
     ];
     skyboxMaterial.reflectionTexture = BABYLON.CubeTexture.CreateFromImages(files, scene);
     skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
